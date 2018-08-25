@@ -17,7 +17,7 @@ def hello():
     except RedisError:
         visits = "<i>cannot connect to Redis, counter disabled</i>"
 
-    html = "<h1>Test fix's</h1><h2>This server deployment from auto-build out docker</h2><br><h3>test autodeploy</h3>"
+    html = "AdinAdinAdin<h1>Test fix's</h1><h2>This server deployment from auto-build out docker</h2><br><h3>test autodeploy</h3>"
     return html
 
 
